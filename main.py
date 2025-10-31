@@ -1,7 +1,7 @@
 import telebot
 from googletrans import Translator, LANGUAGES
 
-bot = telebot.TeleBot("8102994026:AAFImRPgtDOkXYQ1qrN04xIkp9j003nzQtA")
+bot = telebot.TeleBot("")
 translator = Translator()
 
 user_states = {}
@@ -151,3 +151,4 @@ def handle_text(message):
 
 if __name__ == "__main__":
     bot.infinity_polling()
+
